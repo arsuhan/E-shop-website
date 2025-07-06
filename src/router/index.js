@@ -15,11 +15,6 @@ const router = createRouter({
       name: 'header',
       component: () => import('../views/Header.vue'),
     },
-    // {
-    //   path: '/hero',
-    //   name: 'hero',
-    //   component: () => import('../views/Hero.vue'),
-    // },
     {
       path: '/product',
       name: 'product',
